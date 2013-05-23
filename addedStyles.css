@@ -1,0 +1,54 @@
+.board 
+{
+  border-collapse: collapse;
+	font-family: Consolas, Courier New, monospace;
+	font-size: x-large;
+}
+
+.bottom 
+{
+  border-bottom: solid;
+}
+
+.side 
+{
+  border-right: solid;
+}
+
+.pieceSelector 
+{
+  cursor: pointer;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	border: solid;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #E0E0E0;	
+}
+
+html 
+{
+  -webkit-user-select: none;  
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+}
+
+td, th, .ff-fix 
+{
+  cursor: pointer;
+  width: 2em;
+	height: 2em;
+	text-align: center;
+	margin: 0;
+}
+
+.editor 
+{
+  border-collapse: collapse;
+	font-family: Consolas, Courier New, monospace;
+	font-size: x-large;
+	background-color: #E0E0E0;
+}
